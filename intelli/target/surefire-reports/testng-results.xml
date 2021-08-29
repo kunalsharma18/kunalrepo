@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22368" started-at="2021-08-28T15:24:49Z" finished-at="2021-08-28T15:25:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22368" started-at="2021-08-28T15:24:49Z" finished-at="2021-08-28T15:25:11Z">
+      <class name="testcases.NewTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.NewTest@402e37bc]" name="setup" is-config="true" duration-ms="9868" started-at="2021-08-28T15:24:49Z" finished-at="2021-08-28T15:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testcases.NewTest@402e37bc]" name="f" duration-ms="2666" started-at="2021-08-28T15:24:59Z" finished-at="2021-08-28T15:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testcases.NewTest@402e37bc]" name="f1" duration-ms="9045" started-at="2021-08-28T15:25:02Z" finished-at="2021-08-28T15:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kunal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[intelli]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AU]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[K@K.COM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[HI, HOW ARE YOU?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="release()[pri:0, instance:testcases.NewTest@402e37bc]" name="release" is-config="true" duration-ms="738" started-at="2021-08-28T15:25:11Z" finished-at="2021-08-28T15:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- release -->
+      </class> <!-- testcases.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
