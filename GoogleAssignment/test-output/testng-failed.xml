@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="#00112103"/>
+    <parameter name="username" value="qunal.83@gmail.com"/>
+    <classes>
+      <class name="com.google.tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="checkPassword" invocation-numbers="0"/>
+          <include name="release"/>
+        </methods>
+      </class> <!-- com.google.tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
